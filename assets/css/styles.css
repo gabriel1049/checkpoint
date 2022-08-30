@@ -445,7 +445,8 @@ button {
 }
 
 .story__images {
-  position: relative;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -459,11 +460,10 @@ button {
   background-color: var(--first-color);
 }
 
-.story__img {
-  position: absolute;
-  left: 3rem;
-  top: 1rem;
-}
+/* .story__img {
+
+
+} */
 
 /*=============== PRODUCTS ===============*/
 .products__container {
