@@ -315,7 +315,7 @@ button {
   display: inline-block;
   font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
-  color: var(--first-color);
+  color: #FF6000;
   margin-bottom: var(--mb-3);
 }
 
