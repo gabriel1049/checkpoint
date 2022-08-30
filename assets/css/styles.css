@@ -1,12 +1,13 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(29, 76%, 60%);
+  --first-color: #FF5000;
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
   --title-color: hsl(0, 0%, 0%);
@@ -174,8 +175,7 @@ button {
 }
 
 .nav__logo {
-  text-transform: uppercase;
-  font-weight: var(--font-bold);
+  margin-right: 30px;
   letter-spacing: 1px;
   display: inline-flex;
   align-items: center;
@@ -220,12 +220,15 @@ button {
   
 }
 
+
 .nav__link {
-  color: var(--title-color);
+  color: #2D2D2D;
   font-weight: var(--font-medium);
   text-transform: uppercase;
   font-size: var(--h2-font-size);
   transition: .3s;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .nav__link:hover {
@@ -269,15 +272,11 @@ button {
 }
 
 .home__img-bg {
-  background-color: var(--first-color);
   width: 258px;
-  height: 430px;
+  height: 300px;
   padding-bottom: 2rem;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  justify-self: flex-end;
-  transform: translateX(1.5rem);
+  margin-top: 100px;
 }
 
 .home__social {
@@ -303,6 +302,9 @@ button {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
   margin-bottom: var(--mb-1);
+  color: #2D2D2D;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .home__description {
@@ -330,7 +332,7 @@ button {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--button-color);
+  background-color: #FF6000;
   color: #FFF;
   padding: 1.25rem 2rem;
   font-weight: var(--font-medium);
